@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <style>
+        body{
+            padding-left: 20%;
+            padding-right: 20%;
+            background: lightblue;
+        }
+        header{
+            background: pink;
+            padding:8px;
+            font-size:5vw;
+            font-family:Comic Sans MS;
+        }
+        nav{
+            color:rgb(67, 170, 7);
+            padding:6px;
+        }
+        nav a{
+            text-decoration: none;
+            color:gainsboro;
+            background:indigo;
+            padding: 1vw;
+        }
+        nav a:hover{
+            background: lawngreen;
+            color:indigo;
+        }
+    </style>
+</head>
+<body>
+    <header>Анкета посетителя</header>
+    <nav>
+        <a href="1.html">Главная страницы</a>
+        <a href="contacts.html">Контакты</a>  
+    </nav>
+    <main>
+        <h2>Имя</h2>
+        <input type="text"  placeholder="Имя">
+        <h2>Фамилия</h2>
+        <input type="text"  placeholder="Фамилия">
+        <h2>Дата рождения: </h2>
+        <input type="date">
+        <h2>Пол:</h2>
+        <input type="radio" name="Пол"> ж
+        <input type="radio" name="Пол"> м
+        <h2>О себе</h2>
+        <h3>Какими языками вы владеете:</h3>
+        <input type="checkbox" > английский
+        <input type="checkbox" > немецкий
+        <input type="checkbox" > испанский
+        <input type="checkbox" > французский
+        <input type="checkbox" > татарский
+        <h3>Ваш любимый цвет: </h3>
+        <input type="color">
+        <h3>Ваше любимое число:</h3>
+        <input type="number">
+        <h2>Ваши контакты</h2>
+        Электронная почта:
+        <input type="email" value="Введите адрес электронной почты" size="40">
+        <br>
+        
+        Номер телефона:
+        
+        <input type="tel" value="Введите номер телефона">
+    </main>
+</body>
+</html>
+
